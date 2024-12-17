@@ -2,13 +2,10 @@ import React from "react";
 import Titulo from "@/components/Titulo";
 import ValorFormatado from "@/components/ValorFormatado";
 import { formatadorMoeda } from "@/utils/formatadorMoeda";
-import { useCarrinhoContext } from "../../../hooks/useCarrinhoContext";
+import { useCarrinhoContext } from "@/hooks/useCarrinhoContext";
 
 const ResumoCompra = () => {
-
   const { valorTotal, quantidade } = useCarrinhoContext();
-
-
   return (
     <div className="bg-black p-4">
       <Titulo element="h5" className="text-center fw-bold">

@@ -9,11 +9,11 @@ import Categorias from "@/components/Categorias";
 import Facilidades from "@/components/Facilidades";
 import Novidades from "@/components/Novidades";
 
-const Home = ({}) => {
+const Home = () => {
   return (
     <>
       <BarraNavegacao />
-      <CarrinhoSuspenso/>
+      <CarrinhoSuspenso />
       <main>
         <Carrossel />
         <Categorias />
